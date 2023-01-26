@@ -1,3 +1,6 @@
+#ifndef Money_H
+#define Money_H
+
 class Money
 {
 private:
@@ -9,3 +12,5 @@ public:
     virtual void generateCredit() = 0;
     virtual void generateDebit() = 0;
 };
+
+#endif
