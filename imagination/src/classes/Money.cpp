@@ -6,6 +6,14 @@ private:
     double _unsigned_amount;
 
 public:
-    virtual void generateCredit() = 0;
-    virtual void generateDebit() = 0;
+    void generateCredit()
+    {
+        _unsigned_amount--;
+        _signed_amount++;
+    }
+    void generateDebit()
+    {
+        _unsigned_amount++;
+        _signed_amount--;
+    }
 };
