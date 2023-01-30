@@ -1,5 +1,6 @@
 #include <iostream>
 #include "../../headers/Money.h"
+#include "../../headers/Bank.h"
 
 class Bank : Money
 {
